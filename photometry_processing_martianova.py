@@ -9,7 +9,7 @@ remove = 1000
 sigma=100
 lam = 4e5
 
-for mouse in ['SHA', 'TAY', 'UUU', 'VVV', 'WEY', 'YOU']:
+for mouse in ['UUU']: #['SHA', 'TAY', 'UUU', 'VVV', 'WEY', 'YOU']:
 
     # Load data for each mouse
     df = pd.read_pickle(data_dir+'mice/{}.pkl'.format(mouse))
